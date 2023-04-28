@@ -25,18 +25,18 @@
     "pre-release": "pnpm lint && release-it --preRelease=beta"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.4.1",
-    "@supabase/supabase-js": "2.20.0",
+    "@nuxt/kit": "^3.4.3",
+    "@supabase/supabase-js": "2.21.0",
     "defu": "^6.1.2",
     "pathe": "^1.1.0"
   },
   "devDependencies": {
     "@nuxt/module-builder": "^0.3.0",
-    "@nuxt/schema": "^3.4.1",
+    "@nuxt/schema": "^3.4.3",
     "@nuxt/eslint-config": "^0.1.1",
-    "@types/node": "^18.15.11",
-    "eslint": "^8.38.0",
-    "nuxt": "^3.4.1",
+    "@types/node": "^18.16.2",
+    "eslint": "^8.39.0",
+    "nuxt": "^3.4.3",
     "release-it": "^15.10.1",
     "typescript": "^5.0.4"
   },
