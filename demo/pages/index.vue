@@ -23,6 +23,14 @@ watchEffect(() => {
         variant="black"
         @click="auth.signInWithOAuth({ provider: 'github' })"
       />
+      <UButton
+        class="mt-3"
+        icon="mdi:google"
+        block
+        label="Google"
+        variant="black"
+        @click="auth.signInWithOAuth({ provider: 'google' })"
+      />
     </LoginCard>
   </div>
 </template>
